@@ -1,0 +1,3 @@
+package com.example.smpp;
+import java.time.LocalDateTime;import java.time.format.DateTimeFormatter;
+public final class ConsoleLog {private static final String R="\u001B[0m",C="\u001B[36m",G="\u001B[32m",Y="\u001B[33m",X="\u001B[31m";private static final DateTimeFormatter F=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");private ConsoleLog(){}private static synchronized void p(String c,String l,String s){System.out.println(c+LocalDateTime.now().format(F)+" ["+l+"] "+s+R);}public static void info(String s){p(C,"INFO",s);}public static void submit(String s){p(Y,"SUBMIT_SM",s);}public static void response(String s){p(G,"SUBMIT_SM_RESPONSE",s);}public static void warn(String s){p(Y,"WARN",s);}public static void error(String s){p(X,"ERROR",s);}}

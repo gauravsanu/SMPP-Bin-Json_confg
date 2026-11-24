@@ -1,0 +1,9 @@
+{
+  "accountId" : "SMSC_TEST",
+  "sourceAddress" : "TEST",
+  "destinationAddress" : "919900001111",
+  "message" : "Unicode sample: Namaste",
+  "dataCoding" : "GSM",
+  "requestDeliveryReceipt" : false,
+  "responseTimeoutMs" : 10000
+}

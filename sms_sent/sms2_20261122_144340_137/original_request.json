@@ -1,0 +1,9 @@
+{
+  "accountId" : "SMSC_TEST",
+  "sourceAddress" : "TEST",
+  "destinationAddress" : "919812345678",
+  "message" : "Second sample SMS routed across account connections.",
+  "dataCoding" : "GSM",
+  "requestDeliveryReceipt" : true,
+  "responseTimeoutMs" : 10000
+}

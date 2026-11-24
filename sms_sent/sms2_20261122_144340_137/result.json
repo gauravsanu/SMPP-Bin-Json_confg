@@ -1,0 +1,20 @@
+{
+  "originalRequest" : {
+    "accountId" : "SMSC_TEST",
+    "sourceAddress" : "TEST",
+    "destinationAddress" : "919812345678",
+    "message" : "Second sample SMS routed across account connections.",
+    "dataCoding" : "GSM",
+    "requestDeliveryReceipt" : true,
+    "responseTimeoutMs" : 10000
+  },
+  "submitSmResponse" : {
+    "processedAt" : "2026-11-22T14:43:40.134924100",
+    "success" : true,
+    "commandStatus" : 0,
+    "resultMessage" : "OK",
+    "messageId" : "RU",
+    "sequenceNumber" : 2,
+    "accountId" : "SMSC_TEST"
+  }
+}

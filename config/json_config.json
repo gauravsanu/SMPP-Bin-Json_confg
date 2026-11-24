@@ -1,0 +1,12 @@
+{
+  "accounts": [
+    {
+      "accountId": "SMSC_TEST",
+      "description": "Local simulator with two independent sessions",
+      "connections": [
+        {"connectionId":"conn-01","host":"127.0.0.1","port":2775,"systemId":"test","password":"test","bindType":"TRANSCEIVER","windowSize":1},
+        {"connectionId":"conn-02","host":"127.0.0.1","port":2775,"systemId":"test","password":"test","bindType":"TRANSCEIVER","windowSize":1}
+      ]
+    }
+  ]
+}

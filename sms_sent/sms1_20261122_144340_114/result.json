@@ -1,0 +1,20 @@
+{
+  "originalRequest" : {
+    "accountId" : "SMSC_TEST",
+    "sourceAddress" : "TEST",
+    "destinationAddress" : "919876543210",
+    "message" : "Hello from Java SMPP JSON gateway!",
+    "dataCoding" : "GSM",
+    "requestDeliveryReceipt" : false,
+    "responseTimeoutMs" : 10000
+  },
+  "submitSmResponse" : {
+    "processedAt" : "2026-11-22T14:43:40.098665300",
+    "success" : true,
+    "commandStatus" : 0,
+    "resultMessage" : "OK",
+    "messageId" : "RT",
+    "sequenceNumber" : 2,
+    "accountId" : "SMSC_TEST"
+  }
+}
